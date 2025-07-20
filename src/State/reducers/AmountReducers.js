@@ -1,4 +1,4 @@
-const reducer = (action , state=0)=>{
+const amountReducer = (action , state=0)=>{
     if(action.type === "deposite"){
         return state + action.payload;
     }
@@ -10,4 +10,4 @@ const reducer = (action , state=0)=>{
     } 
 }
 
-export default reducer;
+export default amountReducer;
